@@ -1,0 +1,44 @@
+
+/* IDS */
+#fw-foottext
+{
+	font-size: 11pt !important;
+	font-weight: bold !important;
+}
+
+#fw-head
+{
+	position: relative !important;
+	height: 164 !important;
+}
+
+#fw-smalltitle
+{
+	position: absolute !important;
+	font-size: 18pt !important;
+	left: 17px !important;
+	margin: auto !important;
+	font-family: Arial !important;
+	top: 82px !important;
+}
+
+#fw-titlelink
+{
+	font-size: 30pt !important;
+	font-style: normal !important;
+	font-family: Arial !important;
+	text-decoration: none !important;
+}
+
+#fw-title
+{
+	position: absolute !important;
+	left: 12px !important;
+	margin: auto !important;
+	top: 13px !important;
+}
+
+/* CUSTOM */
+/* CUSTOM CSS CODE */
+#fw-bigcontain { margin-left: 60px; }
+#fw-bigcontain { width: 850px !important; }
