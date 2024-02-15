@@ -1,38 +1,21 @@
 @charset "UTF-8";
 
+article
+{
+	font-size: 18px;
+	line-height: 1.5;
+}
+
 blockquote p
 {
 	margin-bottom: 1em;
 	padding-right: 2em;
 }
 
-body {
-	background-color: white;
-	font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, Georgia, serif;
-    color: #111;
-}
-
-
-h1, h2, h3, h4, h5, h6, .breadcrumb, .lead, .navigation, .panel-heading { font-family: system-ui, sans-serif; }
-h4 { font-weight: bold; }
-h5, h6 { text-align: center; }
-
-h5
+body
 {
-	font-size: 18px;
-	font-weight: 700;
-}
-
-h6
-{
-	font-size: 17.5px;
-	font-weight: 700;
-}
-
-article p, article li, article dl
-{
-	font-size: 17.5px;
-	line-height: 1.5;
+	color: #111;
+	font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
 }
 
 cite { font-style: italic; }
@@ -48,6 +31,22 @@ figure, iframe, object
 }
 
 form { padding-bottom: 1em; }
+h1, h2, h3, h4, h5, h6, .breadcrumb, .lead, .navigation, .panel-heading { font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif; }
+h4 { font-weight: bold; }
+h5, h6 { text-align: center; }
+
+h5
+{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h6
+{
+	font-size: 18px;
+	font-weight: 700;
+}
+
 q { quotes: "“" "”" "‘" "’"; }
 q::before { content: open-quote; }
 q::after { content: close-quote; }
