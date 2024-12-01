@@ -9,6 +9,18 @@
   ],
   "creatorBuild" : "34590",
   "files" : {
+    "\/_assets\/css\/hayward-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_assets\/css\/hayward-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/_assets\/css\/hayward.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -513,6 +525,17 @@
       "oA" : 0,
       "oAP" : "\/_assets\/includes\/page-header-small.htm",
       "oF" : 0
+    },
+    "\/_assets\/js\/footer-js-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_assets\/js\/footer-js-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/_assets\/js\/footer-js.js" : {
       "bF" : 0,
@@ -1094,14 +1117,6 @@
       "oAP" : "\/thesis\/index.html",
       "oF" : 0
     },
-    "\/thesis\/toc.htm" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/thesis\/toc.htm",
-      "oF" : 0
-    },
     "\/toc.htm" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1424,14 +1439,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/website\/thoughtcrimes.html",
-      "oF" : 0
-    },
-    "\/website\/toc.htm" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/website\/toc.htm",
       "oF" : 0
     }
   },
