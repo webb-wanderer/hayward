@@ -6,6 +6,8 @@ article
 	line-height: 1.5;
 }
 
+blockquote { font-size: 16px; }
+
 blockquote p
 {
 	margin-bottom: 1em;
@@ -16,6 +18,12 @@ body
 {
 	color: #111;
 	font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+}
+
+caption
+{
+	font-family: Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
+	text-align: center;
 }
 
 cite { font-style: italic; }
