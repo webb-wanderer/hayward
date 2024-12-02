@@ -100,7 +100,6 @@ sup
 
 .columns
 {
-	-moz-column-gap: 1em;
 	column-gap: 1em;
 	margin-bottom: 1em;
 }
@@ -221,10 +220,10 @@ sup
 
 @media (min-width: 768px)
 {
-	.columns { -moz-column-count: 2; column-count: 2; }
+	.columns { column-count: 2; }
 }
 
 @media (min-width: 992px)
 {
-	.columns { -moz-column-count: 3; column-count: 3; }
+	.columns { column-count: 3; }
 }
