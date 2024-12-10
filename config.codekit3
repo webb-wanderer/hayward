@@ -7,7 +7,7 @@
       "uuidString" : "7D2C03CA-A27A-4315-B8CC-BAF2BAF7C658"
     }
   ],
-  "creatorBuild" : "34590",
+  "creatorBuild" : "34627",
   "files" : {
     "\/_assets\/css\/hayward.css" : {
       "aP" : 1,
@@ -25,7 +25,6 @@
       "aP" : 1,
       "bl" : 1,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -33,8 +32,7 @@
       "oAP" : "\/_assets\/css\/hayward.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
-      "sct" : 0
+      "pg" : 1
     },
     "\/_assets\/css\/search.css" : {
       "aP" : 1,
@@ -52,7 +50,6 @@
       "aP" : 1,
       "bl" : 1,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
@@ -60,8 +57,7 @@
       "oAP" : "\/_assets\/css\/search.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/_assets\/img\/3-wake.jpg" : {
       "ft" : 16384,
@@ -2875,11 +2871,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -2994,6 +2988,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
