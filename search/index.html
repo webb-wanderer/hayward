@@ -9,6 +9,15 @@
 	<meta name="keywords" content="Joel Hayward, Hayward, thesis, Joel, holocaust, masters, Hayward, canterbury, university, Joel hayward, history, Holocaust, thesis, Canterbury, hayward, history now, university, new zealand, totem press, canterbury university, literature">
 	<meta name="description" content="Joel Hayward's website. Dr Joel Hayward's home pages. Dr Joel Hayward is a military author, scholar and analyst. Controversially persecuted former thesis student at Canterbury University. Joel Hayward.">
 	<link rel="stylesheet" href="/_assets/css/search.css" media="screen">
+	<!-- #bbinclude "pagefind-meta.incl" -->
+<link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
+<style>
+	.sidebar-search pagefind-modal-trigger {
+	    display: block;
+	    width: 100%;
+	}
+</style>
+<!-- end bbinclude -->
 </head>
 <body>
 <!-- #bbinclude "page-header-small.incl" -->
@@ -20,14 +29,13 @@
 			<h2>
 				Search the Dr. Joel Hayward archive
 			</h2>
-			<form action="https://www.google.com/search" method="get" class="search-form">
-<!-- Hidden input to restrict search to specific domain -->
-				<input type="hidden" name="sitesearch" value="joel-hayward.historiography-project.com">
-				<div class="search-wrapper">
-					<input type="text" name="q" placeholder="Search the Joel Hayward archive ..." required="">
-					<button type="submit">Search</button>
-				</div>
-			</form>
+	<!-- #bbinclude "pagefind-searchbox.incl" -->
+<div class="sidebar-search"><pagefind-input></pagefind-input><pagefind-summary></pagefind-summary><pagefind-results></pagefind-results></div>
+<p class="small text-right">Search feature courtesy <a href="https://pagefind.app/" id="note">Pagefind</a>.</p>
+<!-- #bbpragma ignore_errors="on" -->
+<script src="/pagefind/pagefind-component-ui.js" type="module"></script>
+<!-- #bbpragma ignore_errors="off" -->
+<!-- end bbinclude -->
 			<h2>
 				Search the entire Historiography Project
 			</h2>
